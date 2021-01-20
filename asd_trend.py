@@ -1,16 +1,17 @@
 #Loading the required libraries
-import streamlit as st
 import pandas as pd
 import numpy as np
+import joblib 
 import seaborn as sns
-import pickle
+import streamlit as st
+import sklearn
 
-#Calling the model we saved above:
 
-pickle_in = open('asd_svm.pkl', 'rb')
-classifier = pickle.load(pickle_in)
+# loading joblib files
+asd_svm = joblib.load("asd_svm.joblib")
+
+
 #Creating the UI for the application:
-
 
 st.markdown("<h1 style='text-align: center; color: red;'>Analysis of Autism Trend data</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center; color: black;'>Modeller : Archana Girinath </h3>", unsafe_allow_html=True)
@@ -73,7 +74,7 @@ else:
 
 submit = st.button('Submit')
 if submit:
-	prediction = classifier.predict([[A2, A5, A6, A9, A7, A1, A4, A3, A8]])
+	prediction = asd_svm.predict([[A2, A5, A6, A9, A7, A1, A4, A3, A8]])
 	if prediction ==1:
 		st.write("Your child could be Autistic (with an accuracy of 96.2%) ")
 	else:
