@@ -30,11 +30,11 @@
 #### Thabtah et al. developed the ASDTests app which is used Q-CHAT-10for screening and identifying ASD risk factors. This app calculates a score, which ranges from 0 to 10, with a final individual score of more than 4 out of 10 indicates a positive prediction of ASD. Each item is assigned values from 1 to 10. We collected toddlers (N = 1054) data from Kaggle and UCI ML repository where ASDTests was used to aggregate datasets.
 ------
 
-### Tables 1 show a brief feature description of the different datasets used in this study.
+### Tables 1 Features Description
 
 [![Data1](https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/8600701/8895818/moni.t1-2952609-large.gif)]
 
-### Tables 2 show a brief feature description of the different datasets used in this study.
+### Tables 2 Details of Variables Mapping
 
 [![Data2](https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/8600701/8895818/moni.t2-2952609-large.gif)]
 
@@ -45,7 +45,7 @@
 
 ## Model Comparison
 
-#### Table 1: Displays the accuracy values of the used models
+#### Table 3: Displays the accuracy values of the used models
 
 |                          Methods                          |   Accuracy  |
 |:---------------------------------------------------------:|:-----------:|
@@ -57,7 +57,7 @@
 | SVM linear model                                          | 0.96214511  |
 | Tuned SVM model                                           | 0.955835962 |
 
-#### Table 2: Displays the classification report for the used models
+#### Table 4: Displays the classification report for the used models
 
 |                           Methods                           | Values | Precision | Recall | F1-score | Support |
 |:-----------------------------------------------------------:|:------:|:---------:|:------:|:--------:|:-------:|
@@ -81,18 +81,52 @@ Notes: 0 = False, 1 = True
 
 ## Score and inferences
 
-#### We are considering only 9 out of 10 features to avoid overfitting while we predict the Score. If the total score(other than the 10th feature) is more than 4, then the result will be identified as an autistic characteristic.
+#### 9 out of 10 features to avoid overfitting while we predict the Score. If the total score(other than the 10th feature) is more than 4, then the result will be identified as an autistic characteristic.
 ------
 
 ## Model Deployment
 
-#### We have used Jupyter notebook, Streamlit, Github and Heroku
+#### Jupyter Notebook, Streamlit, Github and Heroku
+
+
+[![Data3](https://photos.app.goo.gl/GtBJJZKUa1pYp5Dr6)]
 ------
 
 ## System Requirements
 
+Python 3.8 
+
+IDE: Jupyter Notebook
+
 ## Python and library requirements
+
+1. matplotlib
+
+2. pandas
+
+3. seaborn
+
+4. numpy
+
+5. sklearn
+
+6. joblib
+
+7. streamlit
+
+8. plotly
 
 ## Future perspectives
 
+#### Autistic scoring could be made rule based with fuzzy logic approaches for Indian data too.
+
 ## References
+
+1. The dataset from National Institute of Mental Health and National Database of Autism Research, NIH, USA.
+
+2. https://github.com/gsarchu/autismML
+
+3. DOI: 10.1109/ACCESS.2019.2952609
+
+4. 
+
