@@ -8,6 +8,8 @@ streamlit = "*"
 pandas = "*"
 seaborn = "*"
 sklearn = "*"
+pickle = "*"
+matplotlib.pyplot = "*"
 
 [dev-packages]
 
