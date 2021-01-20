@@ -4,7 +4,7 @@ import numpy as np
 import joblib 
 import seaborn as sns
 import streamlit as st
-
+import sklearn 
 
 # loading joblib files
 asd_svm = joblib.load("asd_svm.joblib")
