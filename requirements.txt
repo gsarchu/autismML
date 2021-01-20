@@ -27,3 +27,4 @@ pandas
 numpy
 seaborn
 pickle
+matplotlib.pyplot
