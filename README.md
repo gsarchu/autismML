@@ -5,6 +5,8 @@
 
 #### Coded and deployed by Archana
 
+**Table of Contents**
+
 ## Introduction
 
 ## Requirement analysis
