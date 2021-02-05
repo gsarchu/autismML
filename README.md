@@ -12,7 +12,7 @@
 
 ## Introduction
 
-#### Autism Spectrum Disorder (ASD) is a category of neurodevelopmental disabilities that include autism proper and Asperger’s syndrome. ASD cannot be cured but its early detection is desirable as it allows more effective mitigating treatment. However, ASD is very difficult to detect and diagnose by conventional behavioral studies. ASD is most often identified at around two years of age but can be later, depending on the severity of the symptoms. While there are a number of clinical tools to detect ASD as early as possible, in practice these involve onerous diagnostic processes that are not often used unless there is a strong suspicion or high risk of ASD development.
+#### Autism Spectrum Disorder (ASD) is a category of neurodevelopmental disabilities that include autism proper and Asperger’s syndrome. ASD cannot be cured but its early detection is desirable as it allows more effective mitigating treatment. However, ASD is very difficult to detect and diagnose by conventional behavioral studies. ASD is most often identified at around two years of age but can be later, depending on the severity of the symptoms. While there are a number of clinical tools to detect ASD as early as possible, in practice these involve numerous diagnostic processes that are not often used unless there is a strong suspicion or high risk of ASD development.
 ------
 
 ## Requirement analysis
